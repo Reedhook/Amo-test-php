@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    width: 50%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#result h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#result .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.circle.green {
+    background-color: #4CAF50; /* green color */
+}
+
+.circle.red {
+    background-color: #f44336; /* red color */
+}
+
+#result h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#result p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-left: 5px solid #007bff; /* Цвет выделения */
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.red-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-right: 5px;
+}
